@@ -1,3 +1,4 @@
+ 
 
  .hh{
 color: aqua;
@@ -9,8 +10,19 @@ color: aqua;
     align-items: center;
     justify-content: center;
     text-emphasis: center;
-    background-color: #d3bd8d;
-
+    background-size: cover;
+ }
+.card {
+  width: 300px;
+  padding: 30px;
+  background: white;
+  text-decoration: none;
+  color: #333;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  
 }
 
 .container{

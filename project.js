@@ -1,8 +1,5 @@
-const head = document.getElementById("h1")
-    const button = document.getElementById("button changed")
-    button.addEventListener(
-        "click" , () =>{
-            head.textContent=" welcome our page"
+ 
+ <div class="card" onClick={zahera.html}>
 
-        }
-    )
+  <h3>Card 1</h3>
+</div>

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #fdf1e6;
+  font-family: "Amiri", "Scheherazade New", serif;
+  direction: rtl;
+  text-align: right;
+  padding: 90px;
+  border: 90px solid transparent;
+  border-image-source: url("./final\ wallpaper.jpeg");
+  border-image-slice: 90;
+  border-image-repeat: round;
+}
+
+.page-title {
+  font-family: "diwanlettercustom", "diwani letter", "amiri", "tahoma";
+  font-size: 10vh;
+  text-align: center;
+  color: #a32020;
+  margin-bottom: 50px;
+
+  
+}
+
+p {
+  font-family: "Amiri", "Scheherazade New", serif;
+  font-size: 4vh;
+  line-height: 2.2;
+  color: #2b2b2b;
+  margin: 0 auto 30px;
+  max-width: 900px;
+  
+ 
+}
+
+@media (max-width:600px){
+    .body{
+        flex-direction: column;
+    }
+ }

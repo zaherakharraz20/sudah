@@ -2,9 +2,9 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: #fdf1e6;
-  font-family: "Amiri", serif;
-  direction: rtl;
-  text-align: right;
+  font-family: "Libre Baskerville", serif;
+  direction: ltr;
+  text-align: left;
   padding: 60px;
   border: 70px solid transparent;
   border-image-source: url("sudah.jpeg");
@@ -18,15 +18,15 @@ body {
 }
 
 .page-header h1 {
-  font-family: "diwanlettercustom", "diwani letter", "Amiri", serif;
+  font-family:  "Playfair Display", "Libre Baskerville", serif;
   font-size: clamp(60px, 8vw, 90px);
   color: #a32020;
   margin-bottom: 35px;
 }
- .left {
-  width: 700px;       
-  float: left;        
-  margin: 0 20px 20px 0; 
+ .right {
+  width: 700px;
+  float: right;
+  margin: 0 20px 20px 0;
 }
 
 .intro {
@@ -44,7 +44,7 @@ body {
 
 .content-section h2 {
   color: #7a1f1f;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 25px;
 }
 
@@ -84,6 +84,22 @@ ul {
   p,
   ul {
     font-size: 17px;
-
   }
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.lang-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.lang-btn a {
+  text-decoration: none;
+  padding: 8px 12px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
 }

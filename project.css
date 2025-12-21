@@ -11,6 +11,7 @@ color: aqua;
     justify-content: center;
     text-emphasis: center;
     background-size: cover;
+    padding: 100px;
  }
 .card {
   width: 300px;
@@ -102,3 +103,9 @@ color: aqua;
     opacity: 1;
     visibility: visible;
 }
+
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+ }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>map </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url("./final\ map.png"); 
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            background-attachment: fixed;
+            position: relative;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .city {
+            position: absolute;
+            font-size: 20px;
+            color: #8b0000;
+            cursor: pointer;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: 0.2s;
+        }
+
+        .city:hover {
+            color: #d00000;
+            transform: scale(1.1);
+        }
+        .back-home {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #6a1b1b;
+  font-size: 16px;
+  background-color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.back-home:hover,
+.lang-switch:hover {
+  background-color: #d08e8e;
+}
+
+@media (max-width: 600px) {
+            .city {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./index1.html" class="back-home">⬅ "العودة الى الصفحة الرئيسية" </a>
+
+    <br> 
+    <br>
+    <a href="safad.html" class="city" style="top:7.5%; left:62%;">صفد</a>
+    <a href="acre.html" class="city" style="top:8.5%; left:34%;">عكا</a>
+    <a href="yafa.html" class="city" style="top:19.5%; left:30%;">يافا</a>
+    <a href="Nablus .html" class="city" style="top:25%; left:59%;">نابلس</a>
+    <a href="ramallah.html" class="city" style="top:37%; left:63%;">رام الله</a>
+    <a href="Jerusalem .html" class="city" style="top:30%; left:25%;">القدس </a>
+    <a href="Gaza .html" class="city" style="top:43%; left:26%;"> غزة</a>
+    <a href="Bethlehem .html" class="city" style="top:54%; left:60%;">بيت لحم</a>
+    <a href="hebron2.html" class="city" style="top:65%; left:28%;">الخليل</a>
+
+</body>
+</html>

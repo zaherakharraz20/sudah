@@ -87,6 +87,8 @@ ul {
 .lang-switch:hover {
   background-color: #d08e8e;
 }
+
+
 @media (max-width: 600px) {
   body {
     padding: 25px;

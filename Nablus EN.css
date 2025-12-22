@@ -70,6 +70,24 @@ ul {
   margin-bottom: 12px;
 }
 
+.back-home {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: #6a1b1b;
+  font-size: 16px;
+  background-color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.back-home:hover,
+.lang-switch:hover {
+  background-color: #d08e8e;
+}
 @media (max-width: 600px) {
   body {
     padding: 25px;

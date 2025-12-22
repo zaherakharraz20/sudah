@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sudah Project | English</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  
+  <link rel="stylesheet" href="index EN.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-image: url("./final\ wallpaper.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding-top: 80px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.85);
+      z-index: -1;
+    }
+    
+    .lang-switcher {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1001;
+    }
+    
+    .lang-switcher a {
+      background-color: #a32020;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 15px;
+      box-shadow: 0 4px 12px rgba(163, 32, 32, 0.3);
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+    
+    .lang-switcher a:hover {
+      background-color: #8a1a1a;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(163, 32, 32, 0.4);
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        padding-top: 60px;
+        background-attachment: scroll;
+      }
+      
+      .lang-switcher {
+        display: none;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      body {
+        padding-top: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="lang-switcher">
+    <a href="./index1.html">← Back to Arabic Version</a>
+  </div>
+  
+  <nav class="top-nav-mobile">
+    <div class="mobile-nav-container">
+      <a href="./index.html" class="nav-box">
+        <i class="fas fa-language"></i> عربي
+      </a>
+      <a href="./index EN.html" class="nav-box">
+        <i class="fas fa-globe"></i> English
+      </a>
+    </div>
+  </nav>
+  
+  <nav class="top-nav">
+    <ul>
+      <li>
+        <a href="./index.html" class="nav-box">عربي</a>
+      </li>
+      <li>
+        <a href="./index EN.html" class="nav-box">English</a>
+      </li>
+    </ul>
+  </nav>
+
+  <h1 class="page-title">Sudah</h1>
+  
+  <ul class="container"> 
+    <li>
+      <a href="Project EN.html">
+        <img src="./تطريز فلسطين.jpeg" alt="Palestinian Embroidery"> 
+        <div class="content">
+          <div class="card-title">Palestinian Embroidery</div>
+        </div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="./maya EN.html">
+        <img src="./مدن.jpeg" alt="Cities of Palestine"> 
+        <div class="content">
+          <div class="card-title">Palestinian Cities</div>
+        </div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="letter.html">
+        <img src="./letter.jpeg" alt="Letter"> 
+        <div class="content">
+          <div class="card-title">Letter</div>
+        </div>
+      </a>
+    </li>
+  </ul>
+  
+  
+  <script src="./testing.js"></script>
+</body>
+</html>

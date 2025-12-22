@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>سداة | Sudah Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  
+  <link rel="stylesheet" href="./index1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    body {
+      background-image: url("sudah.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 50px 20px;
+      color: black;
+      font-family: 'Amiri', 'Arial', sans-serif;
+      direction: rtl;
+      text-align: right;
+      width: 100%;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    
+    .page-title {
+      font-family: "diwanlettercustom", "diwani letter", "Amiri", serif;
+      font-size: clamp(36px, 10vw, 90px);
+      text-align: center;
+      color: #a32020;
+      margin: 20px 0 40px 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    @media (max-width: 768px) {
+      body {
+        padding: 30px 15px !important;
+        background-attachment: scroll;
+      }
+      
+      .page-title {
+        font-size: clamp(32px, 8vw, 60px);
+        margin: 10px 0 30px 0;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      body {
+        padding: 20px 10px !important;
+      }
+      
+      .page-title {
+        font-size: clamp(28px, 7vw, 50px);
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="top-nav-mobile">
+    <div class="mobile-nav-container">
+      <a href="./index.html" class="nav-box">
+        <i class="fas fa-language"></i> عربي
+      </a>
+      <a href="./index EN.html" class="nav-box">
+        <i class="fas fa-globe"></i> English
+      </a>
+    </div>
+  </nav>
+  
+  <h1 class="page-title">سداة</h1>
+  
+  <ul class="container"> 
+    <li>
+      <a href="./تطريز فلسطيني.html" >
+        <img src="فلسطين نهائي.jpeg" alt="التطريز الفلسطيني">
+        <div class="content">
+          <div class="card-title">التطريز الفلسطيني</div>
+        </div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="maya.html">
+        <img src="مدن نهائي.jpeg" alt="مدن فلسطين">
+        <div class="content">
+          <div class="card-title">مدن فلسطين</div>
+        </div>
+      </a>
+    </li>
+    
+    <li>
+      <a href="رسالة.html">
+        <img src="صورة رسالة.jpeg" alt="رسالة">
+        <div class="content">
+          <div class="card-title">رسالة</div>
+        </div>
+      </a>
+    </li>
+  </ul>
+  
+  <nav class="bottom-nav">
+    <ul>
+      <li><a href="./index.html" class="nav-box">عربي</a></li>
+      <li><a href="./index EN.html" class="nav-box">English</a></li>
+    </ul>
+  </nav>
+  
+</body>
+</html>
